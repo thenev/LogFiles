@@ -1,0 +1,734 @@
+﻿01:00:20 T:1102037520  NOTICE: -----------------------------------------------------------------------
+01:00:20 T:1102037520  NOTICE: Starting XBMC (12.0-ALPHA3 Git:bffd7a7), Platform: Linux (OpenELEC - Version: devel-20120614193607-r11315, 3.2.19 armv6l). Built on Jun 14 2012
+01:00:20 T:1102037520  NOTICE: special://xbmc/ is mapped to: /usr/share/xbmc
+01:00:20 T:1102037520  NOTICE: special://xbmcbin/ is mapped to: /usr/lib/xbmc
+01:00:20 T:1102037520  NOTICE: special://masterprofile/ is mapped to: /storage/.xbmc/userdata
+01:00:20 T:1102037520  NOTICE: special://home/ is mapped to: /storage/.xbmc
+01:00:20 T:1102037520  NOTICE: special://temp/ is mapped to: /storage/.xbmc/temp
+01:00:20 T:1102037520  NOTICE: The executable running is: /usr/lib/xbmc/xbmc.bin
+01:00:20 T:1102037520  NOTICE: Local hostname: RaspberryPi
+01:00:20 T:1102037520  NOTICE: Log File is located: /storage/.xbmc/temp/xbmc.log
+01:00:20 T:1102037520  NOTICE: -----------------------------------------------------------------------
+01:00:20 T:1102037520  NOTICE: load settings...
+01:00:20 T:1102037520  NOTICE: special://profile/ is mapped to: special://masterprofile/
+01:00:20 T:1102037520  NOTICE: loading special://masterprofile/guisettings.xml
+01:00:20 T:1102037520  NOTICE: Getting hardware information now...
+01:00:20 T:1102037520  NOTICE: Checking resolution 16
+01:00:20 T:1102037520  NOTICE: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
+01:00:20 T:1102037520  NOTICE: Loaded playercorefactory configuration
+01:00:20 T:1102037520  NOTICE: Loading player core factory settings from special://masterprofile/playercorefactory.xml.
+01:00:20 T:1102037520  NOTICE: special://masterprofile/playercorefactory.xml does not exist. Skipping.
+01:00:20 T:1102037520  NOTICE: Loaded settings file from special://xbmc/system/advancedsettings.xml
+01:00:20 T:1102037520  NOTICE: Contents of special://xbmc/system/advancedsettings.xml are...
+                                            <?xml version="1.0" encoding="UTF-8" ?>
+                                            <advancedsettings>
+                                              <!--<loglevel>1</loglevel>-->
+                                              <splash>false</splash>
+                                              <showexitbutton>false</showexitbutton>
+                                              <destroywindowcontrols>false</destroywindowcontrols>
+                                              <fanartheight>512</fanartheight>
+                                              <thumbsize>256</thumbsize>
+                                              <bginfoloadermaxthreads>2</bginfoloadermaxthreads>
+                                              <useddsfanart>true</useddsfanart>
+                                              <gui>
+                                                <algorithmdirtyregions>3</algorithmdirtyregions>
+                                                <nofliptimeout>0</nofliptimeout>
+                                                <visualizedirtyregions>off</visualizedirtyregions>
+                                              </gui>
+                                              <audio>
+                                                <omxhwaudiodecode>1</omxhwaudiodecode>
+                                              </audio>
+                                              <network>
+                                                <cachemembuffersize>30242880</cachemembuffersize>
+                                              </network>
+                                              <samba>
+                                                <clienttimeout>30</clienttimeout>
+                                              </samba>
+                                            </advancedsettings>
+01:00:20 T:1102037520  NOTICE: Getting hardware information now...
+01:00:20 T:1102037520  NOTICE: Checking resolution 16
+01:00:20 T:1102037520  NOTICE: No settings file to load (special://masterprofile/advancedsettings.xml)
+01:00:20 T:1102037520  NOTICE: Default DVD Player: omxplayer
+01:00:20 T:1102037520  NOTICE: Default Video Player: omxplayer
+01:00:20 T:1102037520  NOTICE: Default Audio Player: omxplayer
+01:00:20 T:1102037520  NOTICE: Disabled debug logging due to GUI setting. Level 0.
+01:00:20 T:1102037520  NOTICE: Log level changed to 0
+01:00:20 T:1102037520  NOTICE: Loading media sources from special://masterprofile/sources.xml
+01:00:21 T:1165345888  NOTICE: Thread CSoftAE start, auto delete: false
+01:00:23 T:1176499296  NOTICE: Thread XBMC Peripherals start, auto delete: false
+01:00:24 T:1102037520  NOTICE: CWinEGLPlatformRaspberryPI::GetSupportedModes (1) = 16, prefer_group=1, prefer_mode=14
+01:00:24 T:1102037520  NOTICE: 0: 640x480@60 :1
+01:00:24 T:1102037520  NOTICE: 1: 720x480@60 :2
+01:00:24 T:1102037520  NOTICE: 2: 720x480@60 :3
+01:00:24 T:1102037520  NOTICE: 3: 1280x720@60 :4
+01:00:24 T:1102037520  NOTICE: 4: 1920x1080@60 NI:5
+01:00:24 T:1102037520  NOTICE: 5: 720x480@60 I:6
+01:00:24 T:1102037520  NOTICE: 6: 720x480@60 I:7
+01:00:24 T:1102037520  NOTICE: 7: 1920x1080@60 :10
+01:00:24 T:1102037520  NOTICE: 8: 720x576@50 :11
+01:00:24 T:1102037520  NOTICE: 9: 720x576@50 :12
+01:00:24 T:1102037520  NOTICE: 10: 1280x720@50 :13
+01:00:24 T:1102037520  NOTICE: 11: 1920x1080@50 NI:14
+01:00:24 T:1102037520  NOTICE: 12: 720x576@50 I:15
+01:00:24 T:1102037520  NOTICE: 13: 720x576@50 I:16
+01:00:24 T:1102037520  NOTICE: 14: 1920x1080@50 :1f
+01:00:24 T:1102037520  NOTICE: 15: 1920x1080@24 :20
+01:00:24 T:1102037520  NOTICE: CWinEGLPlatformRaspberryPI::GetSupportedModes (2) = 1, prefer_group=1, prefer_mode=14
+01:00:24 T:1102037520  NOTICE: 0: 640x480@60 :4
+01:00:24 T:1102037520  NOTICE: CWinEGLPlatformRaspberryPI::GetSupportedModes (3) = 0, prefer_group=1, prefer_mode=14
+01:00:24 T:1102037520  NOTICE: Found resolution for display 0 with 640 x 480 @ 60.000000 Hz
+01:00:24 T:1102037520  NOTICE: Found resolution for display 0 with 720 x 480 @ 60.000000 Hz
+01:00:24 T:1102037520  NOTICE: Previous line repeats 1 times.
+01:00:24 T:1102037520  NOTICE: Found resolution for display 0 with 1280 x 720 @ 60.000000 Hz
+01:00:24 T:1102037520  NOTICE: Found resolution for display 0 with 1920 x 1080 @ 60.000000 Hz
+01:00:24 T:1102037520  NOTICE: Found resolution for display 0 with 720 x 480 @ 60.000000 Hz
+01:00:24 T:1102037520  NOTICE: Previous line repeats 1 times.
+01:00:24 T:1102037520  NOTICE: Found resolution for display 0 with 1920 x 1080 @ 60.000000 Hz
+01:00:24 T:1102037520  NOTICE: Found resolution for display 0 with 720 x 576 @ 50.000000 Hz
+01:00:24 T:1102037520  NOTICE: Previous line repeats 1 times.
+01:00:24 T:1102037520  NOTICE: Found resolution for display 0 with 1280 x 720 @ 50.000000 Hz
+01:00:24 T:1102037520  NOTICE: Found resolution for display 0 with 1920 x 1080 @ 50.000000 Hz
+01:00:24 T:1102037520  NOTICE: Found resolution for display 0 with 720 x 576 @ 50.000000 Hz
+01:00:24 T:1102037520  NOTICE: Previous line repeats 1 times.
+01:00:24 T:1102037520  NOTICE: Found resolution for display 0 with 1920 x 1080 @ 50.000000 Hz
+01:00:24 T:1102037520  NOTICE: Found resolution for display 0 with 1920 x 1080 @ 24.000000 Hz
+01:00:24 T:1102037520  NOTICE: Found resolution for display 0 with 640 x 480 @ 60.000000 Hz
+01:00:24 T:1102037520  NOTICE: Found (1920x1080@50.000000) at 30, setting to RES_DESKTOP at 16
+01:00:24 T:1102037520  NOTICE: CWinEGLPlatformRaspberryPI::SetDisplayResolution set HDMI mode (2,1,31)=0
+01:00:24 T:1102037520  NOTICE: EGL window and context creation complete
+01:00:24 T:1102037520  NOTICE: GL_VENDOR = Broadcom
+01:00:24 T:1102037520  NOTICE: GL_RENDERER = VideoCore IV HW
+01:00:24 T:1102037520  NOTICE: GL_VERSION = OpenGL ES 2.0
+01:00:24 T:1102037520  NOTICE: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 1.00
+01:00:24 T:1102037520  NOTICE: GL_EXTENSIONS = GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_paletted_texture GL_OES_texture_npot GL_OES_depth24 GL_OES_vertex_half_float GL_OES_EGL_image GL_OES_EGL_image_external GL_EXT_discard_framebuffer GL_OES_rgb8_rgba8 GL_OES_depth32 GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_APPLE_rgb_422 GL_EXT_debug_marker
+01:00:26 T:1102037520   ERROR: Remote Translator: Can't find button eject
+01:00:27 T:1102037520  NOTICE: start dvd mediatype detection
+01:00:27 T:1102037520  NOTICE: initializing playlistplayer
+01:00:27 T:1102037520  NOTICE: DONE initializing playlistplayer
+01:00:27 T:1121698912  NOTICE: Thread CDetectDVDMedia start, auto delete: false
+01:00:36 T:1185023072  NOTICE: Thread XBPyThread start, auto delete: false
+01:00:36 T:1102037520 WARNING: System rebooted during music scan! ... restoring UseTags and FindRemoteThumbs
+01:00:36 T:1102037520  NOTICE: initialize done
+01:00:36 T:1102037520  NOTICE: Running the application...
+01:00:36 T:1193677920  NOTICE: Thread XBPyThread start, auto delete: false
+01:00:38 T:1185023072  NOTICE: -->Python Interpreter Initialized<--
+01:00:38 T:1193677920  NOTICE: -->Python Interpreter Initialized<--
+01:00:38 T:1219318880  NOTICE: Thread Jobworker start, auto delete: true
+01:00:39 T:1102037520  NOTICE: Webserver: Starting...
+01:00:39 T:1102037520  NOTICE: WebServer: Started the webserver
+01:00:39 T:1102037520  NOTICE: ES: Starting event server
+01:00:39 T:1272652896  NOTICE: Thread CEventServer start, auto delete: false
+01:00:39 T:1272652896  NOTICE: ES: Starting UDP Event server on 0.0.0.0:9777
+01:00:39 T:1272652896  NOTICE: UDP: Listening on port 9777
+01:00:39 T:1102037520   ERROR: JSONRPC Server: Failed to connect to sdpd
+01:00:39 T:1102037520  NOTICE: starting zeroconf publishing
+01:00:39 T:1281856608  NOTICE: Thread CTCPServer start, auto delete: false
+01:00:39 T:1290957920  NOTICE: Thread Jobworker start, auto delete: true
+01:00:39 T:1299592288  NOTICE: Thread AirPlayServer start, auto delete: false
+01:00:39 T:1316627552  NOTICE: Thread Jobworker start, auto delete: true
+01:00:39 T:1308066912  NOTICE: Thread AirTunesServer start, auto delete: false
+01:00:41 T:1193677920  NOTICE:  StorageServer Module loaded RUN
+01:00:41 T:1193677920  NOTICE: StorageClient-1.0.0 Starting server
+01:00:41 T:1193677920  NOTICE: StorageServer-1.0.0 Storage Server starting /storage/.xbmc/userdata/Database/commoncache.db
+01:00:41 T:1121698912  NOTICE: Thread CRssReader start, auto delete: false
+01:00:47 T:1185023072  NOTICE: Artwork Downloader: ## Service - Run at startup: False
+01:00:47 T:1185023072  NOTICE: Artwork Downloader: ## Service - Delayed startup: -- minutes
+01:00:47 T:1185023072  NOTICE: Artwork Downloader: ## Service - Run as service: False
+01:00:47 T:1185023072  NOTICE: Artwork Downloader: ## Service - Time: 00:00
+01:02:35 T:1102037520  NOTICE: Samba is idle. Closing the remaining connections
+01:06:39 T:1316627552  NOTICE: Thread Jobworker start, auto delete: true
+01:06:44 T:1102037520  NOTICE: Previous line repeats 2 times.
+01:06:44 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1140/15499.mp3
+01:06:44 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:06:44 T:1185023072  NOTICE: Thread COMXPlayer start, auto delete: false
+01:06:44 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:44 T:1185023072  NOTICE: Creating InputStream
+01:06:44 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:44 T:1185023072   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:06:44 T:1185023072   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:06:44 T:1185023072  NOTICE: Creating Demuxer
+01:06:45 T:1185023072  NOTICE: Opening audio stream: 0 source: 256
+01:06:45 T:1185023072  NOTICE: Creating audio thread
+01:06:45 T:1307980896  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:06:45 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:45 T:1185023072 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:06:45 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:45 T:1307980896  NOTICE: OMXClock using audio as reference
+01:06:47 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1140/15500.mp3
+01:06:47 T:1185023072  NOTICE: COMXPlayer::OnExit()
+01:06:47 T:1185023072  NOTICE: OMXPlayer: closing audio stream
+01:06:47 T:1185023072  NOTICE: Closing audio stream
+01:06:47 T:1307980896  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:06:47 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:06:47 T:1185023072   ERROR: COMXCoreComponent::SetStateForComponent - OMX.broadcom.audio_decode failed with omx_err(0x80001000)
+01:06:47 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:47 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:06:47 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:06:47 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:06:47 T:1307980896  NOTICE: Thread COMXPlayer start, auto delete: false
+01:06:47 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:47 T:1307980896  NOTICE: Creating InputStream
+01:06:48 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:48 T:1307980896   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:06:48 T:1307980896   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:06:48 T:1307980896  NOTICE: Creating Demuxer
+01:06:48 T:1307980896  NOTICE: Opening audio stream: 0 source: 256
+01:06:48 T:1307980896  NOTICE: Creating audio thread
+01:06:48 T:1185023072  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:06:48 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:48 T:1307980896 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:06:48 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:48 T:1185023072  NOTICE: OMXClock using audio as reference
+01:06:49 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1140/15501.mp3
+01:06:49 T:1307980896  NOTICE: COMXPlayer::OnExit()
+01:06:49 T:1307980896  NOTICE: OMXPlayer: closing audio stream
+01:06:49 T:1307980896  NOTICE: Closing audio stream
+01:06:49 T:1185023072  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:06:49 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:06:49 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:49 T:1307980896  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:06:50 T:1307980896  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:06:50 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:06:50 T:1185023072  NOTICE: Thread COMXPlayer start, auto delete: false
+01:06:50 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:50 T:1185023072  NOTICE: Creating InputStream
+01:06:50 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:50 T:1185023072   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:06:50 T:1185023072   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:06:50 T:1185023072  NOTICE: Creating Demuxer
+01:06:50 T:1185023072  NOTICE: Opening audio stream: 0 source: 256
+01:06:50 T:1185023072  NOTICE: Creating audio thread
+01:06:50 T:1307980896  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:06:50 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:50 T:1185023072 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:06:50 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:50 T:1307980896  NOTICE: OMXClock using audio as reference
+01:06:51 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1140/15502.mp3
+01:06:51 T:1185023072  NOTICE: COMXPlayer::OnExit()
+01:06:51 T:1185023072  NOTICE: OMXPlayer: closing audio stream
+01:06:51 T:1185023072  NOTICE: Closing audio stream
+01:06:51 T:1307980896  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:06:51 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:06:52 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:52 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:06:52 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:06:52 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:06:52 T:1307980896  NOTICE: Thread COMXPlayer start, auto delete: false
+01:06:52 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:52 T:1307980896  NOTICE: Creating InputStream
+01:06:52 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:52 T:1307980896   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:06:52 T:1307980896   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:06:52 T:1307980896  NOTICE: Creating Demuxer
+01:06:52 T:1307980896  NOTICE: Opening audio stream: 0 source: 256
+01:06:52 T:1307980896  NOTICE: Creating audio thread
+01:06:52 T:1185023072  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:06:52 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:52 T:1307980896 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:06:52 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:52 T:1185023072  NOTICE: OMXClock using audio as reference
+01:06:53 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1140/15503.mp3
+01:06:53 T:1307980896  NOTICE: COMXPlayer::OnExit()
+01:06:53 T:1307980896  NOTICE: OMXPlayer: closing audio stream
+01:06:53 T:1307980896  NOTICE: Closing audio stream
+01:06:53 T:1185023072  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:06:53 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:06:54 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:54 T:1307980896  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:06:54 T:1307980896  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:06:54 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:06:54 T:1185023072  NOTICE: Thread COMXPlayer start, auto delete: false
+01:06:54 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:54 T:1185023072  NOTICE: Creating InputStream
+01:06:54 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:54 T:1185023072   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:06:54 T:1185023072   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:06:54 T:1185023072  NOTICE: Creating Demuxer
+01:06:54 T:1185023072  NOTICE: Opening audio stream: 0 source: 256
+01:06:54 T:1185023072  NOTICE: Creating audio thread
+01:06:54 T:1307980896  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:06:54 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:54 T:1185023072 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:06:54 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:54 T:1307980896  NOTICE: OMXClock using audio as reference
+01:06:55 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1140/15504.mp3
+01:06:55 T:1185023072  NOTICE: COMXPlayer::OnExit()
+01:06:55 T:1185023072  NOTICE: OMXPlayer: closing audio stream
+01:06:55 T:1185023072  NOTICE: Closing audio stream
+01:06:55 T:1307980896  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:06:55 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:06:55 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:55 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:06:55 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:06:55 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:06:55 T:1307980896  NOTICE: Thread COMXPlayer start, auto delete: false
+01:06:55 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:55 T:1307980896  NOTICE: Creating InputStream
+01:06:55 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:55 T:1307980896   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:06:55 T:1307980896   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:06:55 T:1307980896  NOTICE: Creating Demuxer
+01:06:56 T:1307980896  NOTICE: Opening audio stream: 0 source: 256
+01:06:56 T:1307980896  NOTICE: Creating audio thread
+01:06:56 T:1185023072  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:06:56 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:56 T:1307980896 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:06:56 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:56 T:1185023072  NOTICE: OMXClock using audio as reference
+01:06:57 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1140/15505.mp3
+01:06:57 T:1307980896  NOTICE: COMXPlayer::OnExit()
+01:06:57 T:1307980896  NOTICE: OMXPlayer: closing audio stream
+01:06:57 T:1307980896  NOTICE: Closing audio stream
+01:06:57 T:1185023072  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:06:57 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:06:57 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:57 T:1307980896  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:06:57 T:1307980896  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:06:57 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:06:57 T:1185023072  NOTICE: Thread COMXPlayer start, auto delete: false
+01:06:57 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:57 T:1185023072  NOTICE: Creating InputStream
+01:06:57 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:57 T:1185023072   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:06:57 T:1185023072   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:06:57 T:1185023072  NOTICE: Creating Demuxer
+01:06:57 T:1185023072  NOTICE: Opening audio stream: 0 source: 256
+01:06:57 T:1185023072  NOTICE: Creating audio thread
+01:06:57 T:1307980896  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:06:57 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:57 T:1185023072 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:06:57 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:57 T:1307980896  NOTICE: OMXClock using audio as reference
+01:06:59 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1140/15506.mp3
+01:06:59 T:1185023072  NOTICE: COMXPlayer::OnExit()
+01:06:59 T:1185023072  NOTICE: OMXPlayer: closing audio stream
+01:06:59 T:1185023072  NOTICE: Closing audio stream
+01:06:59 T:1307980896  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:06:59 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:06:59 T:1185023072  NOTICE: OMXClock using video as reference
+01:06:59 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:06:59 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:06:59 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:06:59 T:1307980896  NOTICE: Thread COMXPlayer start, auto delete: false
+01:06:59 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:59 T:1307980896  NOTICE: Creating InputStream
+01:06:59 T:1307980896  NOTICE: OMXClock using video as reference
+01:06:59 T:1307980896   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:06:59 T:1307980896   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:06:59 T:1307980896  NOTICE: Creating Demuxer
+01:07:00 T:1307980896  NOTICE: Opening audio stream: 0 source: 256
+01:07:00 T:1307980896  NOTICE: Creating audio thread
+01:07:00 T:1185023072  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:07:00 T:1307980896  NOTICE: OMXClock using video as reference
+01:07:00 T:1307980896 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:07:00 T:1185023072  NOTICE: OMXClock using video as reference
+01:07:00 T:1185023072  NOTICE: OMXClock using audio as reference
+01:07:02 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1140/15507.mp3
+01:07:02 T:1307980896  NOTICE: COMXPlayer::OnExit()
+01:07:02 T:1307980896  NOTICE: OMXPlayer: closing audio stream
+01:07:02 T:1307980896  NOTICE: Closing audio stream
+01:07:02 T:1185023072  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:07:02 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:07:02 T:1307980896  NOTICE: OMXClock using video as reference
+01:07:02 T:1307980896  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:07:02 T:1307980896  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:07:02 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:07:02 T:1185023072  NOTICE: Thread COMXPlayer start, auto delete: false
+01:07:02 T:1185023072  NOTICE: OMXClock using video as reference
+01:07:02 T:1185023072  NOTICE: Creating InputStream
+01:07:02 T:1185023072  NOTICE: OMXClock using video as reference
+01:07:02 T:1185023072   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:07:02 T:1185023072   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:07:02 T:1185023072  NOTICE: Creating Demuxer
+01:07:02 T:1185023072  NOTICE: Opening audio stream: 0 source: 256
+01:07:02 T:1185023072  NOTICE: Creating audio thread
+01:07:02 T:1307980896  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:07:02 T:1185023072  NOTICE: OMXClock using video as reference
+01:07:02 T:1185023072 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:07:02 T:1307980896  NOTICE: OMXClock using video as reference
+01:07:02 T:1307980896  NOTICE: OMXClock using audio as reference
+01:07:04 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1140/15508.mp3
+01:07:04 T:1185023072  NOTICE: COMXPlayer::OnExit()
+01:07:04 T:1185023072  NOTICE: OMXPlayer: closing audio stream
+01:07:04 T:1185023072  NOTICE: Closing audio stream
+01:07:04 T:1307980896  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:07:04 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:07:04 T:1185023072  NOTICE: OMXClock using video as reference
+01:07:04 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:07:04 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:07:04 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:07:04 T:1307980896  NOTICE: Thread COMXPlayer start, auto delete: false
+01:07:04 T:1307980896  NOTICE: OMXClock using video as reference
+01:07:04 T:1307980896  NOTICE: Creating InputStream
+01:07:04 T:1307980896  NOTICE: OMXClock using video as reference
+01:07:04 T:1307980896   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:07:04 T:1307980896   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:07:04 T:1307980896  NOTICE: Creating Demuxer
+01:07:05 T:1307980896  NOTICE: Opening audio stream: 0 source: 256
+01:07:05 T:1307980896  NOTICE: Creating audio thread
+01:07:05 T:1185023072  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:07:05 T:1307980896  NOTICE: OMXClock using video as reference
+01:07:05 T:1307980896 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:07:05 T:1185023072  NOTICE: OMXClock using video as reference
+01:07:05 T:1185023072  NOTICE: OMXClock using audio as reference
+01:07:08 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1140/15509.mp3
+01:07:08 T:1307980896  NOTICE: COMXPlayer::OnExit()
+01:07:08 T:1307980896  NOTICE: OMXPlayer: closing audio stream
+01:07:08 T:1307980896  NOTICE: Closing audio stream
+01:07:08 T:1185023072  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:07:08 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:07:08 T:1307980896  NOTICE: OMXClock using video as reference
+01:07:08 T:1307980896  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:07:08 T:1307980896  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:07:08 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:07:08 T:1185023072  NOTICE: Thread COMXPlayer start, auto delete: false
+01:07:08 T:1185023072  NOTICE: OMXClock using video as reference
+01:07:08 T:1185023072  NOTICE: Creating InputStream
+01:07:08 T:1185023072  NOTICE: OMXClock using video as reference
+01:07:08 T:1185023072   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:07:08 T:1185023072   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:07:08 T:1185023072  NOTICE: Creating Demuxer
+01:07:09 T:1185023072  NOTICE: Opening audio stream: 0 source: 256
+01:07:09 T:1185023072  NOTICE: Creating audio thread
+01:07:09 T:1307980896  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:07:09 T:1185023072  NOTICE: OMXClock using video as reference
+01:07:09 T:1185023072 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:07:09 T:1307980896  NOTICE: OMXClock using video as reference
+01:07:09 T:1307980896  NOTICE: OMXClock using audio as reference
+01:07:13 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1140/15510.mp3
+01:07:13 T:1185023072  NOTICE: COMXPlayer::OnExit()
+01:07:13 T:1185023072  NOTICE: OMXPlayer: closing audio stream
+01:07:13 T:1185023072  NOTICE: Closing audio stream
+01:07:13 T:1307980896  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:07:13 T:1185023072  NOTICE: OMXClock using video as reference
+01:07:13 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:07:13 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:07:13 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:07:13 T:1307980896  NOTICE: Thread COMXPlayer start, auto delete: false
+01:07:13 T:1307980896  NOTICE: OMXClock using video as reference
+01:07:13 T:1307980896  NOTICE: Creating InputStream
+01:07:13 T:1307980896  NOTICE: OMXClock using video as reference
+01:07:13 T:1307980896   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:07:13 T:1307980896   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:07:13 T:1307980896  NOTICE: Creating Demuxer
+01:07:13 T:1307980896  NOTICE: Opening audio stream: 0 source: 256
+01:07:13 T:1307980896  NOTICE: Creating audio thread
+01:07:13 T:1185023072  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:07:13 T:1307980896  NOTICE: OMXClock using video as reference
+01:07:13 T:1307980896 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:07:13 T:1185023072  NOTICE: OMXClock using video as reference
+01:07:13 T:1185023072  NOTICE: OMXClock using audio as reference
+01:07:17 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1140/15511.mp3
+01:07:17 T:1307980896  NOTICE: COMXPlayer::OnExit()
+01:07:17 T:1307980896  NOTICE: OMXPlayer: closing audio stream
+01:07:17 T:1307980896  NOTICE: Closing audio stream
+01:07:17 T:1185023072  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:07:17 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:07:17 T:1307980896  NOTICE: OMXClock using video as reference
+01:07:17 T:1307980896  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:07:17 T:1307980896  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:07:17 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:07:17 T:1185023072  NOTICE: Thread COMXPlayer start, auto delete: false
+01:07:17 T:1185023072  NOTICE: OMXClock using video as reference
+01:07:17 T:1185023072  NOTICE: Creating InputStream
+01:07:17 T:1185023072  NOTICE: OMXClock using video as reference
+01:07:17 T:1185023072   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:07:17 T:1185023072   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:07:17 T:1185023072  NOTICE: Creating Demuxer
+01:07:17 T:1185023072  NOTICE: Opening audio stream: 0 source: 256
+01:07:17 T:1185023072  NOTICE: Creating audio thread
+01:07:17 T:1307980896  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:07:17 T:1185023072  NOTICE: OMXClock using video as reference
+01:07:17 T:1185023072 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:07:17 T:1307980896  NOTICE: OMXClock using video as reference
+01:07:17 T:1307980896  NOTICE: OMXClock using audio as reference
+01:10:47 T:1185023072  NOTICE: COMXPlayer::OnExit()
+01:10:47 T:1185023072  NOTICE: OMXPlayer: eof, waiting for queues to empty
+01:10:47 T:1185023072  NOTICE: OMXPlayer: closing audio stream
+01:10:47 T:1185023072  NOTICE: Closing audio stream
+01:10:47 T:1185023072  NOTICE: CDVDMessageQueue(audio)::WaitUntilEmpty
+01:10:50 T:1307980896   ERROR: COMXAudio::WaitCompletion - wait for eos timed out
+01:10:50 T:1307980896  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:10:50 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:10:50 T:1185023072  NOTICE: OMXClock using video as reference
+01:10:50 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:10:50 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:10:50 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1140/15512.mp3
+01:10:50 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:10:50 T:1185023072  NOTICE: Thread COMXPlayer start, auto delete: false
+01:10:50 T:1185023072  NOTICE: OMXClock using video as reference
+01:10:50 T:1185023072  NOTICE: Creating InputStream
+01:10:50 T:1185023072  NOTICE: OMXClock using video as reference
+01:10:50 T:1185023072   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:10:50 T:1185023072   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:10:50 T:1185023072  NOTICE: Creating Demuxer
+01:10:50 T:1185023072  NOTICE: Opening audio stream: 0 source: 256
+01:10:50 T:1307980896  NOTICE: Thread Jobworker start, auto delete: true
+01:10:50 T:1185023072  NOTICE: Creating audio thread
+01:10:50 T:1316627552  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:10:50 T:1185023072  NOTICE: OMXClock using video as reference
+01:10:50 T:1185023072 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:10:50 T:1316627552  NOTICE: OMXClock using video as reference
+01:10:50 T:1316627552  NOTICE: OMXClock using audio as reference
+01:11:07 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1139/15465.mp3
+01:11:07 T:1185023072  NOTICE: COMXPlayer::OnExit()
+01:11:07 T:1185023072  NOTICE: OMXPlayer: closing audio stream
+01:11:07 T:1185023072  NOTICE: Closing audio stream
+01:11:07 T:1316627552  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:11:07 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:11:07 T:1185023072  NOTICE: OMXClock using video as reference
+01:11:07 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:11:07 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:11:07 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:11:07 T:1316627552  NOTICE: Thread COMXPlayer start, auto delete: false
+01:11:07 T:1316627552  NOTICE: OMXClock using video as reference
+01:11:07 T:1316627552  NOTICE: Creating InputStream
+01:11:07 T:1316627552  NOTICE: OMXClock using video as reference
+01:11:07 T:1316627552   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:11:07 T:1316627552   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:11:07 T:1316627552  NOTICE: Creating Demuxer
+01:11:08 T:1316627552  NOTICE: Opening audio stream: 0 source: 256
+01:11:08 T:1316627552  NOTICE: Creating audio thread
+01:11:08 T:1185023072  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:11:08 T:1316627552  NOTICE: OMXClock using video as reference
+01:11:08 T:1316627552 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:11:08 T:1185023072  NOTICE: OMXClock using video as reference
+01:11:08 T:1185023072  NOTICE: OMXClock using audio as reference
+01:11:10 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1138/15464.mp3
+01:11:11 T:1316627552  NOTICE: COMXPlayer::OnExit()
+01:11:11 T:1316627552  NOTICE: OMXPlayer: closing audio stream
+01:11:11 T:1316627552  NOTICE: Closing audio stream
+01:11:11 T:1185023072  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:11:11 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:11:11 T:1316627552  NOTICE: OMXClock using video as reference
+01:11:11 T:1316627552  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:11:11 T:1316627552  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:11:11 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:11:11 T:1185023072  NOTICE: Thread COMXPlayer start, auto delete: false
+01:11:11 T:1185023072  NOTICE: OMXClock using video as reference
+01:11:11 T:1185023072  NOTICE: Creating InputStream
+01:11:11 T:1185023072  NOTICE: OMXClock using video as reference
+01:11:11 T:1185023072   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:11:11 T:1185023072   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:11:11 T:1185023072  NOTICE: Creating Demuxer
+01:11:11 T:1185023072  NOTICE: Opening audio stream: 0 source: 256
+01:11:11 T:1185023072  NOTICE: Creating audio thread
+01:11:11 T:1316627552  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:11:11 T:1185023072  NOTICE: OMXClock using video as reference
+01:11:11 T:1185023072 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:11:11 T:1316627552  NOTICE: OMXClock using video as reference
+01:11:11 T:1316627552  NOTICE: OMXClock using audio as reference
+01:11:14 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/1137/15463.mp3
+01:11:14 T:1185023072  NOTICE: COMXPlayer::OnExit()
+01:11:14 T:1185023072  NOTICE: OMXPlayer: closing audio stream
+01:11:14 T:1185023072  NOTICE: Closing audio stream
+01:11:14 T:1316627552  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:11:14 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:11:14 T:1185023072  NOTICE: OMXClock using video as reference
+01:11:14 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:11:14 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:11:14 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:11:14 T:1316627552  NOTICE: Thread COMXPlayer start, auto delete: false
+01:11:14 T:1316627552  NOTICE: OMXClock using video as reference
+01:11:14 T:1316627552  NOTICE: Creating InputStream
+01:11:14 T:1316627552  NOTICE: OMXClock using video as reference
+01:11:14 T:1316627552   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:11:14 T:1316627552   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:11:14 T:1316627552  NOTICE: Creating Demuxer
+01:11:14 T:1316627552  NOTICE: Opening audio stream: 0 source: 256
+01:11:14 T:1316627552  NOTICE: Creating audio thread
+01:11:14 T:1185023072  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:11:14 T:1316627552  NOTICE: OMXClock using video as reference
+01:11:14 T:1316627552 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:11:14 T:1185023072  NOTICE: OMXClock using video as reference
+01:11:14 T:1185023072  NOTICE: OMXClock using audio as reference
+01:12:26 T:1307980896  NOTICE: Thread Jobworker start, auto delete: true
+01:12:43 T:1102037520  NOTICE: Previous line repeats 1 times.
+01:12:43 T:1102037520 WARNING: CLinuxInputDevice::RelEvent: Unknown rel event code: 8
+01:13:30 T:1102037520 WARNING: Previous line repeats 3 times.
+01:13:30 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/685/9294.mp3
+01:13:30 T:1316627552  NOTICE: COMXPlayer::OnExit()
+01:13:30 T:1316627552  NOTICE: OMXPlayer: closing audio stream
+01:13:30 T:1316627552  NOTICE: Closing audio stream
+01:13:30 T:1185023072  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:13:30 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:13:30 T:1316627552   ERROR: COMXCoreComponent::SetStateForComponent - OMX.broadcom.audio_decode failed with omx_err(0x80001000)
+01:13:30 T:1316627552  NOTICE: OMXClock using video as reference
+01:13:30 T:1316627552  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:13:30 T:1316627552  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:13:30 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:13:30 T:1185023072  NOTICE: Thread COMXPlayer start, auto delete: false
+01:13:30 T:1185023072  NOTICE: OMXClock using video as reference
+01:13:30 T:1185023072  NOTICE: Creating InputStream
+01:13:30 T:1185023072  NOTICE: OMXClock using video as reference
+01:13:30 T:1185023072   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:13:30 T:1185023072   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:13:30 T:1185023072  NOTICE: Creating Demuxer
+01:13:31 T:1185023072  NOTICE: Opening audio stream: 0 source: 256
+01:13:31 T:1185023072  NOTICE: Creating audio thread
+01:13:31 T:1316627552  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:13:31 T:1185023072  NOTICE: OMXClock using video as reference
+01:13:31 T:1185023072 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:13:31 T:1316627552  NOTICE: OMXClock using video as reference
+01:13:31 T:1316627552  NOTICE: OMXClock using audio as reference
+01:16:43 T:1185023072  NOTICE: COMXPlayer::OnExit()
+01:16:43 T:1185023072  NOTICE: OMXPlayer: eof, waiting for queues to empty
+01:16:43 T:1185023072  NOTICE: OMXPlayer: closing audio stream
+01:16:43 T:1185023072  NOTICE: Closing audio stream
+01:16:43 T:1185023072  NOTICE: CDVDMessageQueue(audio)::WaitUntilEmpty
+01:16:46 T:1316627552   ERROR: COMXAudio::WaitCompletion - wait for eos timed out
+01:16:46 T:1316627552  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:16:46 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:16:46 T:1185023072  NOTICE: OMXClock using video as reference
+01:16:46 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:16:46 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:16:46 T:1102037520  NOTICE: COMXPlayer: Opening: musicdb://3/685/9296.mp3
+01:16:46 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+01:16:46 T:1185023072  NOTICE: Thread COMXPlayer start, auto delete: false
+01:16:46 T:1185023072  NOTICE: OMXClock using video as reference
+01:16:46 T:1185023072  NOTICE: Creating InputStream
+01:16:46 T:1185023072  NOTICE: OMXClock using video as reference
+01:16:46 T:1185023072   ERROR: COMXCoreComponent::SetConfig - OMX.broadcom.clock failed with omx_err(0x80001005)
+01:16:46 T:1185023072   ERROR: OMXClock::OMXReset error setting OMX_IndexConfigTimeClockState
+01:16:46 T:1185023072  NOTICE: Creating Demuxer
+01:16:46 T:1316627552  NOTICE: Thread Jobworker start, auto delete: true
+01:16:46 T:1185023072  NOTICE: Opening audio stream: 0 source: 256
+01:16:46 T:1185023072  NOTICE: Creating audio thread
+01:16:46 T:1290957920  NOTICE: Thread COMXPlayerAudio start, auto delete: false
+01:16:46 T:1185023072  NOTICE: OMXClock using video as reference
+01:16:46 T:1185023072 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
+01:16:46 T:1290957920  NOTICE: OMXClock using video as reference
+01:16:46 T:1290957920  NOTICE: OMXClock using audio as reference
+01:17:01 T:1307980896  NOTICE: Thread Jobworker start, auto delete: true
+01:20:13 T:1185023072  NOTICE: COMXPlayer::OnExit()
+01:20:13 T:1185023072  NOTICE: OMXPlayer: closing audio stream
+01:20:13 T:1185023072  NOTICE: Closing audio stream
+01:20:13 T:1290957920  NOTICE: thread end: OMXPlayerAudio::OnExit()
+01:20:13 T:1156957280   ERROR: COMXCoreComponent::DecoderEventHandler OMX.broadcom.audio_mixer - OMX_ErrorPortUnpopulated port 0, cannot parse input stream
+01:20:13 T:1185023072  NOTICE: OMXClock using video as reference
+01:20:13 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting demuxer
+01:20:13 T:1185023072  NOTICE: COMXPlayer::OnExit() deleting input stream
+01:20:13 T:1102037520 WARNING: CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+21:35:00 T:1102037520  NOTICE: Samba is idle. Closing the remaining connections
+21:59:12 T:1316627552  NOTICE: Thread Jobworker start, auto delete: true
+22:19:40 T:1121698912  NOTICE: Previous line repeats 3 times.
+22:19:40 T:1121698912  NOTICE: Thread CRssReader start, auto delete: false
+22:20:22 T:1307980896  NOTICE: Thread Background Loader start, auto delete: false
+22:20:22 T:1185023072  NOTICE: Previous line repeats 1 times.
+22:20:22 T:1185023072  NOTICE: Thread Jobworker start, auto delete: true
+22:20:22 T:1307980896 WARNING: CreateLoader - Unsupported protocol(addons) in addons://more/executable.tbn
+22:20:24 T:1307980896  NOTICE: Thread Jobworker start, auto delete: true
+22:20:30 T:1290957920  NOTICE: Previous line repeats 1 times.
+22:20:30 T:1290957920  NOTICE: Thread XBPyThread start, auto delete: false
+22:20:31 T:1290957920  NOTICE: -->Python Interpreter Initialized<--
+22:21:07 T:1102037520   ERROR: Error: Requested setting (videoscreen.screen) was not found.  It must be case-sensitive
+22:21:15 T:1102037520   ERROR: Previous line repeats 2 times.
+22:21:15 T:1102037520  NOTICE: Log level changed to 2
+22:21:15 T:1102037520  NOTICE: Enabled debug logging due to GUI setting. Level 2.
+22:21:15 T:1102037520   DEBUG: ------ Window Init () ------
+22:21:21 T:1102037520   DEBUG: ------ Window Deinit (Pointer.xml) ------
+22:21:22 T:1102037520   DEBUG: ------ Window Init (Pointer.xml) ------
+22:21:24 T:1185023072   DEBUG: Thread Jobworker 1185023072 terminating (autodelete)
+22:21:24 T:1316627552   DEBUG: Thread Jobworker 1316627552 terminating (autodelete)
+22:21:26 T:1102037520   DEBUG: ProcessMouse: trying mouse action leftclick
+22:21:26 T:1102037520  NOTICE: Disabled debug logging due to GUI setting. Level 0.
+22:21:26 T:1102037520  NOTICE: Log level changed to 0
+22:22:36 T:1102037520  NOTICE: Log level changed to 2
+22:22:36 T:1102037520  NOTICE: Enabled debug logging due to GUI setting. Level 2.
+22:22:36 T:1102037520   DEBUG: ------ Window Init () ------
+22:22:38 T:1102037520   DEBUG: ProcessMouse: trying mouse action leftclick
+22:22:38 T:1102037520  NOTICE: Disabled debug logging due to GUI setting. Level 0.
+22:22:38 T:1102037520  NOTICE: Log level changed to 0
+22:22:50 T:1102037520  NOTICE: Log level changed to 2
+22:22:50 T:1102037520  NOTICE: Enabled debug logging due to GUI setting. Level 2.
+22:22:50 T:1102037520   DEBUG: ------ Window Init () ------
+22:22:56 T:1102037520   DEBUG: ------ Window Deinit (Pointer.xml) ------
+22:23:05 T:1102037520   DEBUG: SECTION:UnloadDelayed(DLL: special://xbmcbin/system/ImageLib-arm.so)
+22:23:05 T:1102037520   DEBUG: Unloading: ImageLib-arm.so
+22:23:19 T:1102037520   DEBUG: ------ Window Init (Pointer.xml) ------
+22:23:21 T:1102037520   DEBUG: SECTION:LoadDLL(special://xbmcbin/system/ImageLib-arm.so)
+22:23:21 T:1102037520   DEBUG: Loading: /usr/lib/xbmc/system/ImageLib-arm.so
+22:23:23 T:1102037520   DEBUG: ProcessMouse: trying mouse action leftclick
+22:23:23 T:1102037520   DEBUG: ExecuteXBMCAction : Translating PreviousMenu
+22:23:23 T:1102037520   DEBUG: ExecuteXBMCAction : To PreviousMenu
+22:23:23 T:1102037520   DEBUG: CGUIWindowManager::PreviousWindow: Deactivate
+22:23:23 T:1102037520   DEBUG: ------ Window Deinit (SettingsCategory.xml) ------
+22:23:23 T:1102037520   DEBUG: CGUIWindowManager::PreviousWindow: Activate new
+22:23:23 T:1102037520   DEBUG: ------ Window Init (Settings.xml) ------
+22:23:23 T:1102037520    INFO: Loading skin file: Settings.xml
+22:23:23 T:1102037520   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.image_decode input port 320 output port 321
+22:23:23 T:1102037520   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.resize input port 60 output port 61
+22:23:23 T:1102037520   DEBUG: COMXCoreComponent::AllocInputBuffers component(OMX.broadcom.image_decode) - port(320), nBufferCountMin(2), nBufferCountActual(3), nBufferSize(81920), nBufferAlignmen(16)
+22:23:23 T:1102037520   DEBUG: COMXCoreComponent::AllocOutputBuffers component(OMX.broadcom.resize) - port(61), nBufferCountMin(1), nBufferCountActual(1), nBufferSize(8355840) nBufferAlignmen(16)
+22:23:24 T:1307980896  NOTICE: Thread Jobworker start, auto delete: true
+22:23:24 T:1307980896   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.image_decode input port 320 output port 321
+22:23:24 T:1307980896   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.resize input port 60 output port 61
+22:23:24 T:1307980896   DEBUG: COMXCoreComponent::AllocInputBuffers component(OMX.broadcom.image_decode) - port(320), nBufferCountMin(2), nBufferCountActual(3), nBufferSize(81920), nBufferAlignmen(16)
+22:23:24 T:1307980896   DEBUG: COMXCoreComponent::AllocOutputBuffers component(OMX.broadcom.resize) - port(61), nBufferCountMin(1), nBufferCountActual(1), nBufferSize(2097152) nBufferAlignmen(16)
+22:23:24 T:1307980896   DEBUG: DoWork - took 246 ms to load special://skin/backgrounds/settings.jpg
+22:23:29 T:1102037520   DEBUG: ProcessMouse: trying mouse action leftclick
+22:23:29 T:1102037520   DEBUG: ExecuteXBMCAction : Translating ActivateWindow(home)
+22:23:29 T:1102037520   DEBUG: ExecuteXBMCAction : To ActivateWindow(home)
+22:23:29 T:1102037520   DEBUG: Activating window ID: 10000
+22:23:29 T:1102037520   DEBUG: ------ Window Deinit (Settings.xml) ------
+22:23:29 T:1102037520   DEBUG: ------ Window Init (Home.xml) ------
+22:23:29 T:1102037520    INFO: Loading skin file: Home.xml
+22:23:30 T:1102037520   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.image_decode input port 320 output port 321
+22:23:30 T:1102037520   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.resize input port 60 output port 61
+22:23:30 T:1102037520   DEBUG: COMXCoreComponent::AllocInputBuffers component(OMX.broadcom.image_decode) - port(320), nBufferCountMin(2), nBufferCountActual(3), nBufferSize(81920), nBufferAlignmen(16)
+22:23:30 T:1102037520   DEBUG: COMXCoreComponent::AllocOutputBuffers component(OMX.broadcom.resize) - port(61), nBufferCountMin(1), nBufferCountActual(1), nBufferSize(8355840) nBufferAlignmen(16)
+22:23:39 T:1102037520   DEBUG: ProcessMouse: trying mouse action leftclick
+22:23:39 T:1102037520   DEBUG: ExecuteXBMCAction : Translating ActivateWindow(MusicFiles)
+22:23:39 T:1102037520   DEBUG: ExecuteXBMCAction : To ActivateWindow(MusicFiles)
+22:23:39 T:1102037520   DEBUG: Activating window ID: 10501
+22:23:39 T:1102037520   DEBUG: ------ Window Deinit (Home.xml) ------
+22:23:39 T:1102037520   DEBUG: ------ Window Init (MyMusicSongs.xml) ------
+22:23:39 T:1102037520    INFO: Loading skin file: MyMusicSongs.xml
+22:23:40 T:1102037520   DEBUG: CGUIMediaWindow::GetDirectory ()
+22:23:40 T:1102037520   DEBUG:   ParentPath = []
+22:23:40 T:1102037520   DEBUG: RetrieveMusicInfo() took 0 msec
+22:23:41 T:1185023072  NOTICE: Thread Background Loader start, auto delete: false
+22:23:41 T:1185023072   DEBUG: Thread Background Loader 1185023072 terminating
+22:23:41 T:1316627552  NOTICE: Thread Background Loader start, auto delete: false
+22:23:41 T:1316627552   DEBUG: Thread Background Loader 1316627552 terminating
+22:23:41 T:1102037520   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.image_decode input port 320 output port 321
+22:23:41 T:1102037520   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.resize input port 60 output port 61
+22:23:41 T:1102037520   DEBUG: COMXCoreComponent::AllocInputBuffers component(OMX.broadcom.image_decode) - port(320), nBufferCountMin(2), nBufferCountActual(3), nBufferSize(81920), nBufferAlignmen(16)
+22:23:41 T:1102037520   DEBUG: COMXCoreComponent::AllocOutputBuffers component(OMX.broadcom.resize) - port(61), nBufferCountMin(1), nBufferCountActual(1), nBufferSize(8355840) nBufferAlignmen(16)
+22:23:42 T:1307980896   DEBUG: DoWork - took 113 ms to load /usr/share/xbmc/addons/skin.confluence/media/DefaultNetwork.png
+22:23:47 T:1316627552  NOTICE: Thread Jobworker start, auto delete: true
+22:23:47 T:1307980896   DEBUG: DoWork - took 120 ms to load /usr/share/xbmc/addons/skin.confluence/media/DefaultAddSource.png
+22:23:47 T:1316627552   DEBUG: DoWork - took 106 ms to load /usr/share/xbmc/addons/skin.confluence/media/DefaultHardDisk.png
+22:23:47 T:1307980896   DEBUG: DoWork - took 109 ms to load /usr/share/xbmc/addons/skin.confluence/media/DefaultAddonMusic.png
+22:23:53 T:1102037520   DEBUG: ------ Window Deinit (Pointer.xml) ------
+22:23:56 T:1102037520   DEBUG: ProcessMouse: trying mouse action rightclick
+22:23:57 T:1102037520   DEBUG: CFavourites::Load - no system favourites found, skipping
+22:23:57 T:1102037520   DEBUG: CFavourites::Load - no userdata favourites found, skipping
+22:23:57 T:1102037520    INFO: Loading skin file: DialogContextMenu.xml
+22:23:57 T:1102037520   DEBUG: ------ Window Init (DialogContextMenu.xml) ------
+22:23:57 T:1102037520   DEBUG: ------ Window Init (Pointer.xml) ------
+22:24:00 T:1102037520   DEBUG: ProcessMouse: trying mouse action leftclick
+22:24:01 T:1102037520   DEBUG: ------ Window Deinit (DialogContextMenu.xml) ------
+22:24:01 T:1102037520   DEBUG: ------ Window Init (DialogMusicScan.xml) ------
+22:24:01 T:1102037520    INFO: Loading skin file: DialogMusicScan.xml
+22:24:01 T:1102037520    INFO: Music scan has started... Enabling tag reading, and remote thumbs
+22:24:01 T:1185023072  NOTICE: Thread CMusicInfoScanner start, auto delete: false
+22:24:01 T:1185023072   DEBUG: Process - Starting scan
+22:24:01 T:1290957920  NOTICE: Thread CMusicInfoScanner start, auto delete: false
+22:24:01 T:1290957920   DEBUG: OpenDir - Using authentication url smb://admin:*******@NEVMONAS/Qmultimedia/Music/B/Bent/Intercept%21
+22:24:03 T:1290957920   DEBUG: Previous line repeats 1 times.
+22:24:03 T:1290957920   DEBUG: Thread CMusicInfoScanner 1290957920 terminating
+22:24:03 T:1185023072   DEBUG: DoScan Scanning dir 'smb://NEVMONAS/Qmultimedia/Music/B/Bent/Intercept!/' as not in the database
+22:24:03 T:1185023072   DEBUG: SECTION:LoadDLL(special://xbmcbin/system/libid3tag-arm.so)
+22:24:03 T:1185023072   DEBUG: Loading: /usr/lib/xbmc/system/libid3tag-arm.so
+22:24:03 T:1185023072   DEBUG: CSmbFile::Open - opened Qmultimedia/Music/B/Bent/Intercept!/01 Exercise 7.mp3, fd=10001
+22:24:03 T:1185023072    INFO: Creating album thumb from memory: special://masterprofile/Thumbnails/Music/d/d5592b90.tbn
+22:24:05 T:1102037520   DEBUG: ------ Window Deinit (Pointer.xml) ------
+22:24:17 T:1316627552   DEBUG: Thread Jobworker 1316627552 terminating (autodelete)
+22:24:17 T:1307980896   DEBUG: Thread Jobworker 1307980896 terminating (autodelete)
+22:24:31 T:1102037520   DEBUG: SECTION:UnloadDelayed(DLL: special://xbmcbin/system/ImageLib-arm.so)
+22:24:31 T:1102037520   DEBUG: Unloading: ImageLib-arm.so
+22:25:10 T:1102037520   DEBUG: ------ Window Init (Pointer.xml) ------
+22:25:20 T:1102037520   DEBUG: ------ Window Deinit (Pointer.xml) ------
+22:28:23 T:1102037520   DEBUG: ------ Window Init (Pointer.xml) ------
+22:28:29 T:1102037520   DEBUG: ------ Window Deinit (Pointer.xml) ------
